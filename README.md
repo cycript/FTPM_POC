@@ -262,3 +262,5 @@ Trying to read or write with flashrom confirms the chip is in fact 8 megabytes
 - We just flashed stock firmware for our BIOS with UUID/Serial numbers that we put in manually
 
 - Why is a ch341 needed? Because a normal BIOS flash/update will not overwrite all sections (which is why you normally maintain serials after bios updates), while here our goal is to destory all data.
+
+- This has been used since 2022 and there have been no issues regarding its functionality.
